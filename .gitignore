@@ -4,3 +4,4 @@
 node_modules
 src/dict
 yarn-error.log
+build
