@@ -1,0 +1,98 @@
+.example {
+  background: #edf0f5;
+  border: 1px solid #bdc7d8;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px;
+  width: 680px;
+}
+
+.example h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0 0 4px 0;
+}
+
+.example p {
+  color: #777;
+  font-size: 1.5rem;
+  margin: 0 0 20px 0;
+}
+
+.example a {
+  color: #365899;
+  text-decoration: none;
+}
+
+.example a:hover {
+  text-decoration: underline;
+}
+
+.example a:focus {
+  outline: none;
+}
+
+.example img {
+  width: 100%;
+}
+
+.languages {
+  border-bottom: 1px solid #dddfe2;
+  color: #737373;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 24px 0;
+  padding: 0 20px 8px 20px;
+  white-space: nowrap;
+}
+
+.languages li {
+  margin-right: 1em;
+}
+
+.languages a {
+  color: #365899;
+  text-decoration: none;
+}
+
+.languages a:hover {
+  text-decoration: underline;
+}
+
+.languages a:focus {
+  outline: none;
+}
+
+.languages a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #737373;
+}
+
+.neatoSelect {
+  position: relative;
+  top: 5px;
+}
+
+.neatoLink {
+  font-weight: bold;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.padRight {
+  padding-right: 0.3em;
+}
+
+.rtl .padRight {
+  padding-left: 0.3em;
+}
+
+.pad {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
