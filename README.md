@@ -15,3 +15,4 @@
   * The commands above are required to run this step
 * `yarn start` to run a local server with hot reloading.
 * `yarn test` to run unit tests.
+* `yarn deploy` to deploy build on github pages.

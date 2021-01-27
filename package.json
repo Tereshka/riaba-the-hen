@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "riaba-the-hen",
+  "homepage": "https://tereshka.github.io/riaba-the-hen",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
