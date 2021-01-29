@@ -1,7 +1,8 @@
 import {
-  SET_LOCALE,
   AppActionTypes,
   AppState,
+  SET_LOCALE,
+  SET_RATING,
 } from './types';
 // const {
 //   GenderConst,
@@ -15,6 +16,7 @@ import { LOCALES } from 'i18n/locales';
 
 const initialState: AppState = {
   locale: 'en_US',
+  rating: 0,
 };
 
 export function appReducer(
@@ -32,6 +34,11 @@ export function appReducer(
         locale: locale,
       };
     }
+    case SET_RATING:
+      return {
+        ...state,
+        rating: action.payload,
+      }
     default:
       return state;
   }
