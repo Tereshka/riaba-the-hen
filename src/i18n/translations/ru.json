@@ -21,12 +21,32 @@
         }
       ]
     },
-    "f9df2DVor1ccX0uzZbuDVQ==": {
+    "jIvW+E7ZSBj65ixdPVl9KA==": {
       "tokens": [],
       "types": [],
       "translations": [
         {
-          "translation": "Тестим русский язык!",
+          "translation": "Пожалуйста, оцените сказку:",
+          "variations": {}
+        }
+      ]
+    },
+    "oa7jzaxy0lcmTU207h5OTg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "Спасибо! Вы поставили {number of stars} звезды 🌟",
+          "variations": {}
+        }
+      ]
+    },
+    "y2WOcCFD/E0seRpuhPaaqg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "Спасибо! Вы поставили одну звезду 🌟",
           "variations": {}
         }
       ]

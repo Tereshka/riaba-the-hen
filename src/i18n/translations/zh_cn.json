@@ -20,6 +20,36 @@
           "variations": {}
         }
       ]
+    },
+    "jIvW+E7ZSBj65ixdPVl9KA==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "请评价这个故事：",
+          "variations": {}
+        }
+      ]
+    },
+    "oa7jzaxy0lcmTU207h5OTg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "谢谢！ 您给了{number of stars}星 🌟",
+          "variations": {}
+        }
+      ]
+    },
+    "y2WOcCFD/E0seRpuhPaaqg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "谢谢！ 你给了一颗星 🌟",
+          "variations": {}
+        }
+      ]
     }
   }
 }

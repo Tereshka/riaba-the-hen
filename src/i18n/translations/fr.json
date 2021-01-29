@@ -20,6 +20,36 @@
           "variations": {}
         }
       ]
+    },
+    "jIvW+E7ZSBj65ixdPVl9KA==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "Veuillez noter l'histoire:",
+          "variations": {}
+        }
+      ]
+    },
+    "oa7jzaxy0lcmTU207h5OTg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "Merci! Vous avez donné {number of stars} étoiles 🌟",
+          "variations": {}
+        }
+      ]
+    },
+    "y2WOcCFD/E0seRpuhPaaqg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "Merci! Vous avez donné une étoile 🌟",
+          "variations": {}
+        }
+      ]
     }
   }
 }

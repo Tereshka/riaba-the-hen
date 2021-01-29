@@ -20,6 +20,10 @@
   margin: 0 0 20px 0;
 }
 
+.example span {
+  font-size: 1.5rem;
+}
+
 .example a {
   color: #365899;
   text-decoration: none;
@@ -35,6 +39,10 @@
 
 .example img {
   width: 100%;
+}
+
+.rating {
+  text-align: center;
 }
 
 .languages {

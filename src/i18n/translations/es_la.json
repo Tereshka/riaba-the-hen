@@ -30,6 +30,36 @@
           "variations": {}
         }
       ]
+    },
+    "jIvW+E7ZSBj65ixdPVl9KA==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "Califique el cuento, por favor:",
+          "variations": {}
+        }
+      ]
+    },
+    "oa7jzaxy0lcmTU207h5OTg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "¡Gracias! Has dado {number of stars} estrellas 🌟",
+          "variations": {}
+        }
+      ]
+    },
+    "y2WOcCFD/E0seRpuhPaaqg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "¡Gracias! Pones una estrella 🌟",
+          "variations": {}
+        }
+      ]
     }
   }
 }
