@@ -41,6 +41,10 @@
   width: 100%;
 }
 
+.rating {
+  text-align: center;
+}
+
 .languages {
   border-bottom: 1px solid #dddfe2;
   color: #737373;

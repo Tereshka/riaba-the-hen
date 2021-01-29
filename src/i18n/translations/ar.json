@@ -20,6 +20,36 @@
           "variations": {}
         }
       ]
+    },
+    "jIvW+E7ZSBj65ixdPVl9KA==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": ": يرجى تقييم الحكاية",
+          "variations": {}
+        }
+      ]
+    },
+    "oa7jzaxy0lcmTU207h5OTg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "🌟 شكر! لقد أعطيت {number of stars} نجوم",
+          "variations": {}
+        }
+      ]
+    },
+    "y2WOcCFD/E0seRpuhPaaqg==": {
+      "tokens": [],
+      "types": [],
+      "translations": [
+        {
+          "translation": "🌟 شكر! أنت تضع نجمة واحدة",
+          "variations": {}
+        }
+      ]
     }
   }
 }

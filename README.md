@@ -7,6 +7,7 @@
 [babel-plugin-fbt-runtime](https://www.npmjs.com/package/babel-plugin-fbt-runtime)  
 
 * `yarn install` to pull in dependencies down
+* `yarn clean-fbts` to clean all built files
 * `yarn manifest` to generate enum and source manifests
 * `yarn collect-fbts` to collect FBT translatable texts
 * `yarn translate-all` to generate one single file with translations

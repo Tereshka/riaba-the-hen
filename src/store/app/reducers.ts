@@ -27,7 +27,6 @@ export function appReducer(
     case SET_LOCALE: {
       const locale = action.payload
       IntlViewerContext.locale = locale;
-      console.log(IntlViewerContext);
       setLocale(locale);
       return {
         ...state,
