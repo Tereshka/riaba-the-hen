@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { store } from './store/index';
 import { Provider } from 'react-redux';
 
-import '../src/i18n/init';
+import './i18n/init';
 
 import Tale from './components/Tale/Tale';
 import './index.css';

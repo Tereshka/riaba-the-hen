@@ -1,12 +1,12 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { setLocale } from '../../store/app/actions';
+import { useAppDispatch, useAppSelector } from 'store/index';
+import { setLocale } from 'store/app/actions';
 
-import LOCALES from '../../i18n/locales';
+import { LOCALES } from 'i18n/locales';
 
 const LocaleList = () => {
-  const locale = useSelector(state => state.app.locale);
-  const dispatch = useDispatch();
+  const locale = useAppSelector(state => state.app.locale);
+  const dispatch = useAppDispatch();
 
   return (
     <>

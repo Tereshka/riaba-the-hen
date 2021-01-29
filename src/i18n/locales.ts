@@ -1,4 +1,15 @@
-const LOCALES = Object.freeze({
+export type LocaleType = {
+  [id: string]: Language;
+};
+
+type Language = {
+  bcp47: string;
+  displayName: string;
+  englishName: string;
+  rtl: boolean;
+};
+
+export const LOCALES: LocaleType = Object.freeze({
   en_US: Object.freeze({
     bcp47: 'en-US',
     displayName: 'English (US)\u200e',
@@ -42,5 +53,3 @@ const LOCALES = Object.freeze({
     rtl: false,
   }),
 });
-
-export default LOCALES;

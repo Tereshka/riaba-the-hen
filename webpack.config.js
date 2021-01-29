@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: path.join(__dirname, 'src', 'index.js'),
+  entry: path.join(__dirname, 'src', 'index.tsx'),
   output: {
     path: path.join(__dirname, 'build'),
     filename: '[name].js'
@@ -21,15 +21,21 @@ module.exports = {
       path.resolve(__dirname, 'src'),
       path.resolve(__dirname, 'src/example'),
       './node_modules'
-    ]
+    ],
+    extensions: [ '.tsx', '.ts', '.js' ],
   },
   devServer: {
     contentBase: path.join(__dirname, 'src')
   },
   module: {
     rules: [
+      // {
+      //   test: /\.tsx?$/,
+      //   use: 'ts-loader',
+      //   exclude: /node_modules/,
+      // },
       {
-        test: /\.jsx?$/,
+        test: /\.jsx?$|\.tsx?$/,
         loader: 'babel-loader',
         query: {
           plugins: [
